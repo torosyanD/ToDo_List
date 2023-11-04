@@ -1,0 +1,94 @@
+.btnnp {
+  font-size: 17px;
+  padding: 0.5em 2em;
+  border: transparent;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  background: dodgerblue;
+  color: white;
+  border-radius: 4px;
+}
+
+.btnnp:hover {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, rgba(30, 144, 255, 1) 0%, rgba(0, 212, 255, 1) 100%);
+}
+
+.btnnp:active {
+  transform: translate(0em, 0.2em);
+}
+
+span {
+  font-size: 25px;
+}
+
+.dv1 {
+  margin-left: 60px;
+}
+
+.btn11 {
+  width: 40px;
+}
+
+.btn22 {
+  width: 40px;
+}
+
+.btn22:hover {
+  background-color: skyblue;
+  border: none;
+  height: 39px;
+}
+
+.btn11:hover {
+  background-color: skyblue;
+  border: none;
+  height: 39px;
+}
+
+
+.btn1:hover {
+  background-color: skyblue;
+  border: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .btnnp {
+    font-size: 25px;
+    padding: 0.5em 2em;
+    border: transparent;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.4);
+    background: dodgerblue;
+    color: white;
+    border-radius: 6px;
+  }
+
+  .btn1 {
+    width: 150px;
+    height: 55px;
+    font-size: 30px;
+  }
+
+  .inp1 {
+    width: 200px;
+    height: 50px;
+    font-size: 27px;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+
+  ul {
+    font-size: 30px;
+  }
+
+  .btn11 {
+    width: 70px;
+    font-size: 30px;
+  }
+
+  .btn22 {
+    width: 70px;
+    font-size: 30px;
+  }
+}
